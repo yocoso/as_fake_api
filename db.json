@@ -1,0 +1,64 @@
+{
+  "register": [
+    {
+      "id": "1",
+      "success": true,
+      "user": {
+        "firstname": "Joe",
+        "lastname": "Do",
+        "email": "jd@abc.com",
+        "role": "admin"
+      }
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "success": true,
+      "user": {
+        "firstname": "Joe",
+        "lastname": "Do",
+        "email": "jd@abc.com",
+        "role": "admin"
+      }
+    }
+  ],
+  "login_failed": [
+    {
+      "success": false,
+      "message": "Invalid Password"
+    }
+  ],
+  "logout": [
+    {
+      "success": true
+    }
+  ],
+  "my_project": [
+    {
+      "id": 1,
+      "name": "AI consultant 1",
+      "type": "consultant"
+    },
+    {
+      "id": 2,
+      "name": "AI consultant 2",
+      "type": "consultant"
+    },
+    {
+      "id": 3,
+      "name": "AI HR 1",
+      "type": "hr"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
