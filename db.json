@@ -23,12 +23,6 @@
       }
     }
   ],
-  "login_failed": [
-    {
-      "success": false,
-      "message": "Invalid Password"
-    }
-  ],
   "logout": [
     {
       "success": true
@@ -50,15 +44,5 @@
       "name": "AI HR 1",
       "type": "hr"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
